@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.nonfungiblepodcast" name="Nonfungible podcast" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en_us</language>
+    <summary lang="en">Nonfungible podcast</summary>
+    <description lang="en">The Non-Fungible Podcast with Darren Kleine examines the NFT market with a focus on the growing art movement. The show presents conversations with artists, collectors, and innovators in the industry. DKleine began exploring blockchain technology in 2016. He eventually joined the team at Cointelegraph as a freelance writer. Through interactions in his writing career, DKleine encountered figures who introduced him to cryptoart. He soon began his exploration of this new world as an artist.</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/Nonfugiblepodcast</source>
+    <website>https://cointelegraph.com/magazine/series/nonfungible-podcast</website>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/1.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+			<screenshot>resources/media/1.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
